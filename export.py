@@ -41,6 +41,7 @@ def export_sqlite_to_html(db_file, output_html_file):
             border-collapse: collapse;
             width: 100%;
             margin-bottom: 30px;
+            background-color: #CED2CC;
         }
         th, td {
             border: 1px solid #ddd;
@@ -48,15 +49,22 @@ def export_sqlite_to_html(db_file, output_html_file):
             text-align: left;
         }
         th {
-            background-color: #f4f4f4;
+            #background-color: #f4f4f4;
+            color: white;
+            #background-color: #04AA6D;
+            background-color: #6AB187;
+        }
+        tr::hover{
+            background-color: #23282D;
+            color: white;
         }
         h2 {
-            color: #333;
+            #color: #333;
         }
     </style>
 </head>
 <body>
-    <h1>SQLite Database Export</h1>
+    <h1>Visioniz3r Export</h1>
 """
 
         # Loop through each table and export its data
